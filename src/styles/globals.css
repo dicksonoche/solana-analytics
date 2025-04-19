@@ -1,0 +1,10 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+.glow {
+  box-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 30px #00FFFF;
+}
+
+body {
+  @apply bg-neutral-900 text-white;
+}
